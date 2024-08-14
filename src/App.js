@@ -2,8 +2,8 @@
 import { useState } from 'react';
 import './App.css';
 // import About from './components/About';
-import Navbar from './components/Navbar';
-import TextForm from './components/TextForm';
+import Navbar from '../../new-folder/src/components/Navbar';
+import TextForm from '../../new-folder/src/components/TextForm';
 
 function App() {
   const [mode, setMode] = useState('secondary');
