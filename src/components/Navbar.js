@@ -41,4 +41,4 @@ Navbar.propTypes = {
 
 Navbar.defaultProps = {
   title:'Spider' 
-};
+}; 
