@@ -1,7 +1,6 @@
 
 import { useState } from 'react';
 import './App.css';
-// import About from './components/About';
 import Navbar from './components/Navbar';
 import TextForm from './components/TextForm';
 
@@ -23,7 +22,6 @@ const toggleMode = ()=>{
     <Navbar title="TextEditor" mode={mode} toggleMode={toggleMode}/>
     <div className="container my-4">
       <TextForm heading="Text Editor" mode={mode}/>
-      {/* <About/> */}
     </div>
     </>
   );
